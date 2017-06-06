@@ -1,0 +1,53 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    overflow: hidden;
+}
+
+video {
+    top:0;
+    left:0;
+    width:1080px;
+    height: 1920px;
+}
+
+body.weboss.webos-signage-1.portrait video,
+body.weboss.webos-signage-2.portrait video,
+body.weboss.webos-signage-1.portrait-ccw video,
+body.weboss.webos-signage-2.portrait-ccw video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px!important;
+    height: 100%;
+}
+ @font-face {
+      font-family: "Turkcell Satura Bold";
+      src: url({{TURKCELL_FONT}});
+  }
+
+.overlay{
+    position:absolute;
+    top:200px;
+    left:390px;
+
+    z-index:1;
+}
+.overlay h1 {
+    /*-webkit-transition:all 1.0s ease-in-out;*/
+    /*-moz-transition:all 1.0s ease-in-out;*/
+    /*-o-transition:all 1.0s ease-in-out;*/
+    /*transition:all 1.0s ease-in-out;*/
+
+    background: transparent none repeat scroll 0 0;
+    /**/
+    /*margin: 2rem 3rem 0;*/
+    /*text-align: center;*/
+    font-family: "Turkcell Satura Bold";
+    font-size: 1000%;
+    color: #ffffff;
+}
+

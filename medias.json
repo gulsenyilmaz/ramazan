@@ -1,0 +1,4 @@
+{
+    "INTRO_VIDEO": {"dev": "./medias/turkcell_tim_ekranlar_haziran_iftar_saati_yayn_shedit_main_comp_output_v001_cy.mp4", "prod": "media://373"},
+    "TURKCELL_FONT":{"dev":"./medias/turkcell_satura/TURKCELL_FONT/TurkcellSaturaMedIta.ttf", "prod":"media://372"}
+}
