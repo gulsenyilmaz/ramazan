@@ -25,29 +25,37 @@ body.weboss.webos-signage-2.portrait-ccw video {
     height: 100%;
 }
  @font-face {
-      font-family: "Turkcell Satura Bold";
+      font-family: "Turkcell Satura Med";
       src: url({{TURKCELL_FONT}});
   }
 
 .overlay{
+
     position:absolute;
     top:200px;
     left:390px;
+    color: #FFC72C;
 
     z-index:1;
+
+
+
+    /*opacity: 0;*/
 }
 .overlay h1 {
-    /*-webkit-transition:all 1.0s ease-in-out;*/
-    /*-moz-transition:all 1.0s ease-in-out;*/
-    /*-o-transition:all 1.0s ease-in-out;*/
-    /*transition:all 1.0s ease-in-out;*/
-
+    position:relative;
+    /*top:-500px;*/
     background: transparent none repeat scroll 0 0;
-    /**/
-    /*margin: 2rem 3rem 0;*/
-    /*text-align: center;*/
-    font-family: "Turkcell Satura Bold";
+    font-family: "Turkcell Satura Med";
     font-size: 1000%;
-    color: #ffffff;
+    /*-webkit-transition:all 1s linear;*/
+    /*-moz-transition:all 1s linear;*/
+    /*-o-transition:all 1s linear;*/
+    /*transition:all 1s linear;*/
+    -webkit-transform: translate3d(0,-500,0);
+    -moz-transform: translate3d(0,-500,0);
+    transform: translate3d(0,-500,0);
+
+    /*color: #FFC72C;*/
 }
 
